@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    height: 80px;
+    background-color: rgb(172, 113, 227);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color:rgb(213, 171, 252)
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    margin: auto 5px;
+    color:beige
+}
+
+a:hover{
+    color: purple;
+    transition: .9s;
+    background-color: antiquewhite;
+}
